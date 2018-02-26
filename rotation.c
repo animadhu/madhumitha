@@ -1,24 +1,15 @@
 #include<stdio.h>
-
-
 int main()
  {
-  
-int n,x,a[20],b[20],c[20],d[20],i,y=0,z=0,t=0;
-  
-scanf("%d",&n);
-   
-scanf("%d",&x);
-  
-while(n>0)
- 
-{
-      
-      a[i]=n%10;
- 
-      n=n/10;
- 
-      i++;t++;
+  int n,a[20],b[20],c[20],d[20],i,y=0,z=0,t=0;
+  scanf("%d",&n);
+  scanf("%d",&x);
+  while(n>0)
+  {
+   a[i]=n%10;
+   n=n/10;
+   i++;
+   t++;
   
  }
   
