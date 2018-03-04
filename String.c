@@ -3,8 +3,9 @@
 #include<string.h>
 int main() {
    char a[100] = "RMD Engg College", vowels[5] ={'a','e','i','o','u' };
-   int count[5] = {0,0,0,0,0},i;
-   for(i=0;i<strlen(a);i++)
+   int count[5] = {0,0,0,0,0},i,b;
+   b=strlen(a);
+   for(i=0;i<b;i++)
    {
        if(a[i]=='A'||a[i]=='a')
        {
