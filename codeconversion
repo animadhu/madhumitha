@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main() {
+  int num,d,a[100],i=0,j;
+  scanf("%d %d",&num,&d);
+  while(num)
+  {
+      a[i]=num%d;
+      num=num/d;
+      i++;
+  }
+  for(j=i-1;j>=0;j--)
+{
+    printf("%d",a[j]);
+}
+    
+}
